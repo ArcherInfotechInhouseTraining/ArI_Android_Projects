@@ -14,6 +14,26 @@
 
 Screenshots
 
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s1.jpeg?raw=true" alt =" "> 
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s2.jpeg?raw=true" alt = " ">
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s3.jpeg?raw=true" alt = " ">
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s4.jpeg?raw=true" alt = " ">
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s5.jpeg?raw=true" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s6.jpeg?raw=true" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s7.jpeg?raw=true" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s8.jpeg?raw=true" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s9.jpeg?raw=true" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s10.jpeg?raw=true" alt = " ">
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s11.jpeg?raw=true" alt = " ">
+
+
+
+
 - Tech Stack
 - Programming Language: Java
 - Database: Firebase Realtime Database
