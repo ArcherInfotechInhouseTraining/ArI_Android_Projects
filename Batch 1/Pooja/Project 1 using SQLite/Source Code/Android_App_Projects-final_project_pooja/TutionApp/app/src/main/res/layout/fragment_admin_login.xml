@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Login">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="12">
+
+
+
+        <RelativeLayout
+            android:id="@+id/loginlayout"
+            android:layout_width="match_parent"
+            android:layout_height="609dp"
+
+
+            android:background="@drawable/login_layout_bg"
+
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <EditText
+                android:id="@+id/editusername"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:imeOptions="actionNext"
+                android:background="@drawable/input_bg"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:hint="Enter Username"
+
+                android:textColorHint="@color/white"
+                android:textSize="25dp" />
+
+
+
+            <EditText
+                android:id="@+id/editpassword"
+                android:layout_below="@+id/editusername"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="25dp"
+                android:textColorHint="@color/white"
+                android:background="@drawable/input_bg"
+                android:backgroundTint="@color/primary"
+                android:hint="Enter Password" />
+
+
+
+            <LinearLayout
+                android:id="@+id/btns"
+                android:layout_below="@id/editpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_bg"
+                    android:text="Login"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/input_bg"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Cancel"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/dont"
+                android:layout_below="@+id/btns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:text="Don't have an account? Sign up"
+                android:textColor="@color/primary" />
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

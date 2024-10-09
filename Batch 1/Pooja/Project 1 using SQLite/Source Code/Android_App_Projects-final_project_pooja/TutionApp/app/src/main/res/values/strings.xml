@@ -1,0 +1,372 @@
+<resources>
+    <string name="app_name">TutionApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- Other strings -->
+    <string name="select_course">Select a course</string>
+    <string-array name="course_list">
+        <item>Select a course</item>
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Python</item>
+        <item>React</item>
+        <item>Angular + Node js</item>
+        <item>C#</item>
+        <item>Android</item>
+        <item>HTML+CSS+JS</item>
+        <item>SQL</item>
+
+    </string-array>
+
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agree_with_terms_and_condition">Agree with Terms and Condition</string>
+    <string name="discription1">• Archer InfoTech specializes in offering cutting-edge information technology
+solutions tailored to meet the diverse needs ot their clients. Their services
+range from software development and consulting to cybersecurity cloud computing, ensuring businesses stay ahead in the digital landscape.</string>
+    <string name="discription2">• The company emphasizes a customer-first mentality. focusing on
+understanding and addressing the unique challenges and objectives of each
+client. By providing personalized and efficient solutions, Archer InfoTech
+aims to foster long-term partnerships and deliver exceptional value.</string>
+    <string name="discription3">• Archer IntoTech boasts a team of seasoned professionals with extensive
+industry knowledge and technical expertise. Their commitment to continuous
+learning and staying updated with the latest technological advancements
+enables them to provide innovative and reliable solutions that drive business</string>
+
+
+    <string-array name="course_array">
+        <item>C Programming</item>
+        <item>CPP Programming</item>
+        <item>Java Programming</item>
+        <item>Structure Query Language(SQL)</item>
+        <item>Data Science</item>
+        <item>Artificial Intelligence</item>
+        <item>Web-Devlopment</item>
+        <item>Testing</item>
+    </string-array>
+
+    <string-array name="duration_array">
+        <item>1 month</item>
+        <item>1.5 month</item>
+        <item>2 month</item>
+        <item>1 month</item>
+        <item>3 month</item>
+        <item>3 month</item>
+        <item>2 month</item>
+        <item>1 month</item>
+    </string-array>
+
+    <string-array name="cource_img_array">
+        <item>c</item>
+        <item>cpp</item>
+        <item>java</item>
+        <item>sql</item>
+        <item>datascience</item>
+        <item>artificialintelligence</item>
+        <item>webdevlopment</item>
+        <item>testing</item>
+    </string-array>
+
+
+    <!--    //Syllabus For Each Subject-->
+    <string-array name="c_syllabus_array">
+        <item>&#8226;&#160;&#160; Introduction to C</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Operators and Expressions</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Input/Output</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Control Structures</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Functions</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Arrays</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Pointers</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Strings</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Structures and Unions</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; File Handling</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Preprocessor Directives</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Dynamic Memory Management</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Command Line Arguments</item>
+    </string-array>
+
+    <string-array name="cpp_syllabus_array">
+        <item>&#8226;&#160;&#160; Introduction to CPP</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Basic Syntax</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Control Structures</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Functions</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Arrays and Strings</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Pointers and References</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Object-Oriented Programming (OOP) Concepts</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Advanced C++ Features</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; File Handling</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Data Structures (Optional)</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Practical Assignments</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Final Project</item>
+    </string-array>
+
+    <string-array name="java_syllabus_array">
+        <item>&#8226;&#160;&#160; Introduction to Java</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Java Basics</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Control Structures</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Methods</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Object-Oriented Programming (OOP) Concepts</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Java Collections Framework</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Exception Handling</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; File I/O</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Multithreading</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Java GUI Programming (Optional)</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Networking in Java (Optional)</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Practical Assignments</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Final Project</item>
+    </string-array>
+
+    <string-array name="sql_syllabus_array">
+        <item>&#8226;&#160;&#160; Introduction to Databases</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; SQL Basics</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Data Retrieval</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Data Manipulation</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Joins and Relationships</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Aggregation and Grouping</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Subqueries</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Set Operations</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Indexes</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Views and Stored Procedures</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Transactions and Concurrency Control</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Database Normalization</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Practical Assignments</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Final Project</item>
+    </string-array>
+
+    <string-array name="ds">
+        <item>&#8226;&#160;&#160; Introduction to Data Science</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Mathematics and Statistics for Data Science</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Programming for Data Science</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Data Wrangling and Preprocessing</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Data Visualization</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Exploratory Data Analysis (EDA)</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Machine Learning Algorithms</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Model Evaluation and Tuning</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Deep Learning</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Natural Language Processing (NLP)</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Big Data and Cloud Computing</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Data Engineering</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Soft Skills and Ethics</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Projects and Case Studies</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Final Project</item>
+    </string-array>
+
+    <string-array name="ai_syllabus_array">
+        <item>&#8226;&#160;&#160; Introduction to Artificial Intelligence</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Mathematics for AI</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Programming for AI</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Search Algorithms</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Knowledge Representation and Reasoning</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Machine Learning in AI</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Deep Learning and Neural Networks</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Natural Language Processing (NLP)</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Computer Vision</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Reinforcement Learning</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Ethics in AI</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; AI and Robotics</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Expert Systems</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; AI in Real-World Applications</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Practical Assignments</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Final Project</item>
+    </string-array>
+
+    <string-array name="webdev_syllabus_array">
+        <item>&#8226;&#160;&#160; Introduction to Web Development</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; HTML (Hypertext Markup Language)</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; CSS (Cascading Style Sheets)</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; JavaScript (JS) Basics</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Version Control with Git</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Responsive Web Design</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Advanced JavaScript</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Frontend Frameworks/Libraries</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Backend Development (Server-side)</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; APIs and Web Services</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Practical Assignments</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Final Project</item>
+    </string-array>
+
+    <string-array name="testing_syllabus_array">
+        <item>&#8226;&#160;&#160; Introduction to Software Testing</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Manual Testing</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Software Testing Levels</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Functional Testing</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Non-Functional Testing</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; JAutomation Testing</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Testing Methodologies</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Test Management Tools</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Mobile Testing</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; JAPI Testing</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Behavior-Driven Development (BDD)</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Practical Assignments</item>
+        <item></item>
+        <item>&#8226;&#160;&#160; Final Project</item>
+    </string-array>
+
+
+    <!--    //Instructer Array Start Here-->
+    <string-array name="instructer_name_array">
+        <item>Mr. Prajwal W.</item>
+        <item>Mr. Yogesh P.</item>
+        <item>Mr. Yogesh P</item>
+        <item>Miss. Ankita Ma\'am</item>
+        <item>Mr. Yogesh P.</item>
+        <item>Miss. Ankita Ma\'am</item>
+        <item>Mr. Prajwal W.</item>
+        <item>Miss. Ankita Ma\'am</item>
+    </string-array>
+
+    <!--    //Instructer Profession Array-->
+    <string-array name="prof_Ankita_info">
+        <item>Software Developer</item>
+        <item>Languages  : C , SQL</item>
+        <item>Experience : 3 Years</item>
+    </string-array>
+
+    <string-array name="prof_YogeshPatil_info">
+        <item>CEO of Archer Infotech </item>
+        <item>Languages  : C , CPP , JAVA </item>
+        <item>Experience : 15 Years</item>
+    </string-array>
+
+    <string-array name="prof_PrajwalVahane_info">
+        <item>Software Engineer</item>
+        <item>Languages  : Android , HTML , CSS , BOOTSTRAP</item>
+        <item>Experience : 2 Years</item>
+    </string-array>
+
+    <string-array name="profession_array">
+        <item>Software Engineer</item>
+        <item>CEO of Archer Infotech</item>
+        <item>Software Developer</item>
+        <item>Software Engineer</item>
+        <item>CEO of Archer Infotech</item>
+        <item>Software Developer</item>
+        <item>CEO of Archer Infotech</item>
+        <item>Software Developer</item>
+    </string-array>
+
+    <!--    //Fees Array-->
+    <string-array name="fees_array">
+        <item>10000 Rs\\-</item>
+        <item>20000 Rs\\-</item>
+        <item>30000 Rs\\-</item>
+        <item>10000 Rs\\-</item>
+        <item>20000 Rs\\-</item>
+        <item>30000 Rs\\-</item>
+        <item>10000 Rs\\-</item>
+        <item>20000 Rs\\-</item>
+    </string-array>
+
+</resources>
