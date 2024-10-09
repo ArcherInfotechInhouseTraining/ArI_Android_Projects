@@ -25,10 +25,10 @@
 - Add support for data synchronization when online.
 - Implement data encryption for sensitive user and payment information.
 
-###Screenshot
+### Screenshots
 
 splash screen
-  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/splashScreen.jpeg?raw=true">
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/splashScreen.jpeg?raw=true" height="200">
 
 letstart1
   <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/LetsStartOne.jpeg?raw=true">
