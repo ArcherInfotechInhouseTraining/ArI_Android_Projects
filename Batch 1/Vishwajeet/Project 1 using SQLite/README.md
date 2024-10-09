@@ -27,4 +27,4 @@
 - Expand the database to support additional features, such as course assessments and feedback.
 
 ### Screenshots
-<img src = ""
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s1.jpeg?raw=true" alt =" "> 
