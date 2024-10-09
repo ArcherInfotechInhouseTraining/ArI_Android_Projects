@@ -24,3 +24,5 @@
 ### Future Enhancements
 - Add support for data synchronization when online.
 - Implement data encryption for sensitive user and payment information.
+
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/AdminLogIn.jpeg?raw=true">
