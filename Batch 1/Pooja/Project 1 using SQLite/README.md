@@ -25,4 +25,61 @@
 - Add support for data synchronization when online.
 - Implement data encryption for sensitive user and payment information.
 
+###Screenshot
+
+splash screen
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/splashScreen.jpeg?raw=true">
+
+letstart1
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/LetsStartOne.jpeg?raw=true">
+
+letstart2
+  <img src ="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/LetsStartTwo.jpeg?raw=true">
+
+letstart3
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/LetsStartThree.jpeg?raw=true">
+
+letstart4
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/LetsStartFour.jpeg?raw=true">
+  
+adminlogin
   <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/AdminLogIn.jpeg?raw=true">
+
+userlogin
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/UserLogIn.jpeg?raw=true">
+
+Registrationform1
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/RegistrationOne.jpeg?raw=true">
+
+Registrationform2
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/RegstrationTwo.jpeg?raw=true">
+
+Admitionform
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/AdmissionForm.jpeg?raw=true">
+
+profile
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/ProfilePage.jpeg?raw=true">
+
+cource list
+  <img src= "https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/CourceList.jpeg?raw=true">
+
+cource details
+  <img src = "https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/DetaillsAboutCource.jpeg?raw=true">
+
+payment
+  <img src = "https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/PaymentPage.jpeg?raw=true">
+
+UPI
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/PayWithUPI.jpeg?raw=true">
+
+EMI
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/EMI.jpeg?raw=true">
+
+CardPaymet
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/CardPayment.jpeg?raw=true">
+
+  
+
+  
+  
+  
