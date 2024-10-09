@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/payment_bg"
+    android:orientation="vertical"
+    tools:context=".EmiPayment">
+
+    <LinearLayout
+        android:id="@+id/card_heading"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrow"
+            android:layout_gravity="center"
+            android:padding="10dp"/>
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:padding="5dp"
+            android:src="@drawable/archerlogo"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARCHER INFOTECH"
+            android:fontFamily="@font/robotobold"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/emi_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMI"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/card_heading"/>
+
+    <TextView
+        android:id="@+id/emi_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Options"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+
+        android:layout_below="@id/emi_heading"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emi_options"
+        android:layout_margin="30dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_bg">
+
+        <LinearLayout
+            android:id="@+id/creditCard_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credit Card"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/axis"
+                    android:background="@drawable/circle_bg"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:padding="4dp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/icici"
+                    android:background="@drawable/circle_bg"
+                    android:layout_gravity="center"
+                    android:padding="2dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/baroda"
+                    android:background="@drawable/circle_bg"
+                    android:layout_gravity="center"
+                    android:padding="2dp" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMI starting ₹211/month"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/hrline"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/creditCard_list"
+            android:layout_marginTop="10dp"
+            android:background="#11A28F" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hrline"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Debit Card"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/emiAxisbank_logo"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/axis"
+                    android:background="@drawable/circle_bg"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:padding="4dp"/>
+
+                <ImageView
+                    android:id="@+id/emiIcicibank_logo"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/icici"
+                    android:background="@drawable/circle_bg"
+                    android:layout_gravity="center"
+                    android:padding="2dp" />
+
+                <ImageView
+                    android:id="@+id/emiBaroda_logo"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/baroda"
+                    android:background="@drawable/circle_bg"
+                    android:layout_gravity="center"
+                    android:padding="2dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/hdfc"
+                    android:background="@drawable/circle_bg"
+                    android:layout_gravity="center"
+                    android:padding="2dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMI starting ₹300/month"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="50dp"
+        android:elevation="30dp">
+
+        <TextView
+            android:id="@+id/fee_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="₹10,000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:elevation="20dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/card_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:text="Continue"
+            android:textSize="24sp"
+            android:elevation="20dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
