@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    tools:context=".AboutUs">
+
+    <ImageView
+        android:id="@+id/aboutusimg"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/aboutusimg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/aboutusimg"
+        android:orientation="vertical"
+        android:background="@drawable/facultyinfobg"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who we are ?"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="12dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/discription1"
+            android:textAlignment="textStart"
+            android:textColor="@color/white" />
+<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:fontFamily="@font/poppins_medium"
+    android:textSize="12dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="20dp"
+            android:textColor="@color/white"
+            android:text="@string/discription2"
+            android:textAlignment="textStart" />
+<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="20dp"
+            android:textColor="@color/white"
+    android:fontFamily="@font/poppins_medium"
+            android:text="@string/discription3"
+    android:textSize="12dp"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+
+</RelativeLayout>
