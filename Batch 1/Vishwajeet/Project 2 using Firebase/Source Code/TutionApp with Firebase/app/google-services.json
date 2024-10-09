@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "493114310540",
+    "project_id": "tutionapp-with-firebase",
+    "storage_bucket": "tutionapp-with-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493114310540:android:dc2fc787084064024b60a9",
+        "android_client_info": {
+          "package_name": "com.ArcherInfotech.tutionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8cb2_Z1grH02MhwU_6IjxpYSNVE0DWOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
