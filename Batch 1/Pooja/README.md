@@ -1,56 +1,34 @@
-###Archer InfoTech - Online Classes App
+# ArI_Android_Projects
+## Archer InfoTech - Online Classes App
+### Project Overview
+- Archer InfoTech is an Android app designed to provide users with information on a variety of online programming and web development courses. Users can explore course - details, manage their profiles, register for classes, and make secure payments. The app integrates Firebase for real-time database management and user authentication, - while also utilizing SQLite for local data storage.
 
-###Project Overview
+### Features
+- Homepage: Displays details of courses, including C, C++, Java, Web Development, HTML, CSS, JavaScript, and C#.
+- Admission Page: Allows users to enroll in courses by providing necessary details.
+- Profile Page: Users can manage their profile information.
+- Payment Page: Enables users to make secure payments for course enrollment.
+- Firebase Integration: Handles user authentication, online database management, and payment processing.
+- SQLite Database: Provides local data storage for offline access and faster data retrieval.
+- Tech Stack
+- Programming Language: Java
+- Databases:
+- Firebase Realtime Database: Manages user data and payments.
+- SQLite: Stores local data for offline access.
+- Authentication: Firebase Authentication
 
-The Archer InfoTech app is designed to offer users a comprehensive platform for exploring various online programming and web development courses. Users can easily browse course details, manage their profiles, enroll in classes, and process secure payments. This application leverages Firebase for real-time database management and user authentication, alongside SQLite for local data storage.
-
-###Key Features
-Homepage: A user-friendly interface displaying a variety of courses, including:
-
-C
-C++
-Java
-Web Development
-HTML
-CSS
-JavaScript
-C#
-
-Admission Page: Users can enroll in courses by filling out the necessary details.
-
-Profile Page: Manage and update user profile information.
-
-Payment Page: Facilitates secure payment processing for course registrations.
-
-Firebase Integration: Handles user authentication and manages online databases for user data and payment processing.
-
-SQLite Database: Ensures local data storage for offline access and rapid data retrieval.
-
-###Tech Stack
-Programming Language: Java
-
-Databases:
-Firebase Realtime Database: Manages user data and payment transactions.
-SQLite: Provides local data storage for offline access.
-
-Authentication: Firebase Authentication
-
-###Database Structure
-
-Firebase
-User Data: Stores user profiles and course enrollments.
-Payments: Manages transactions related to course payments.
-
-SQLite
-Courses Table:
-
-course_id (INTEGER, Primary Key): Unique identifier for each course.
-course_name (TEXT): Name of the course.
-description (TEXT): Brief description of the course.
-duration (TEXT): Duration of the course.
-
-User Info Table:
-user_id (INTEGER, Primary Key): Unique identifier for each user.
-name (TEXT): User's name.
-email (TEXT): User's email address.
-course_id (INTEGER, Foreign Key): Identifier for the course the user is enrolled in.
+### Database Structure
+#### Firebase
+- User Data: Stores user information, profiles, and course enrollments.
+- Payments: Manages user transactions for course payments.
+#### SQLite
+- Courses Table:
+- course_id (INTEGER, Primary Key) - Unique ID for each course.
+- course_name (TEXT) - Name of the course.
+- description (TEXT) - Description of the course.
+- duration (TEXT) - Duration of the course.
+- User Info Table:
+- user_id (INTEGER, Primary Key) - Unique ID for each user.
+- name (TEXT) - Name of the user.
+- email (TEXT) - Email address of the user.
+- course_id (INTEGER, Foreign Key) - ID of the course the user is enrolled in.
