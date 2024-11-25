@@ -55,6 +55,8 @@
 
   <img src = "https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/PaymentPage.jpeg?raw=true">
 
+  <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/PayMentPage2.jpeg?raw=true">
+
 <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/PayWithUPI.jpeg?raw=true">
 
 <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%201%20using%20SQLite/Output%20Screenshots/EMI.jpeg?raw=true">
