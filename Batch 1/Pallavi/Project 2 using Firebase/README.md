@@ -12,7 +12,57 @@
 - Payment Page: Enables users to make secure payments for course enrollment.
 - Firebase Integration: Used for user authentication, database management, and payment handling.
 
-## ScreenShot
+
+Screenshots
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s1.jpeg?raw=true" alt =" "> 
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s2.jpeg?raw=true" alt = " ">
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s3.jpeg?raw=true" alt = " ">
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s4.jpeg?raw=true" alt = " ">
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s5.jpeg?raw=true" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s6.jpeg?raw=true" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s7.jpeg?raw=true" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s8.jpeg?raw=true" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s9.jpeg?raw=true" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s10.jpeg?raw=true" alt = " ">
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s11.jpeg?raw=true" alt = " ">
+
+
+
+
+- Tech Stack
+- Programming Language: Java
+- Database: Firebase Realtime Database
+- Authentication: Firebase Authentication
+- Installation
+- Clone the repository:
+- bash
+- Copy code
+- git clone https://github.com/yourusername/archer-infotech.git
+- Open the project in Android Studio.
+- Set up Firebase:
+- Go to Firebase Console, create a new project, and add the app.
+- Download the google-services.json file and place it in the app directory of your project.
+- Enable Firebase Authentication and Realtime Database from the Firebase Console.
+- Build and run the app on an emulator or connected device.
+- Usage
+- Launch the app to view the home page with details of the available courses.
+- Navigate to the Admission Page to register for any course.
+- Visit the Profile Page to update personal information.
+- Complete course enrollment by making payments on the Payment Page.
+- Future Enhancements
+- Add more courses and advanced content.
+- Enable chat support for users to contact instructors.
+- Integrate payment options through multiple providers.
+
+
+- Batch 1
+- ## ScreenShot
 
 <img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%202%20using%20Firebase/Output%20Screenshots/splashScreen.jpeg?raw=true">
 
@@ -51,16 +101,6 @@
 <img src = "https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%202%20using%20Firebase/Output%20Screenshots/NetBanking.jpeg?raw=true">
 
 <img src = "https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pooja/Project%202%20using%20Firebase/Output%20Screenshots/PaymentSuccess.jpeg?raw=true">
-
-
-
-
-
-
-
-
-
-
 
 
 
