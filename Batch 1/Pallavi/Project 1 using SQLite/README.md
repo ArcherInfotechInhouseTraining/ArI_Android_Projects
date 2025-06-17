@@ -28,27 +28,42 @@
 - Expand the database to support additional features, such as course assessments and feedback.
 
 ### Screenshots
-<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s1.jpeg?raw=true" alt =" "> 
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/spalshScreen.jpeg" alt = " ">
 
-<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s2.jpeg?raw=true" alt = " ">
-<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s3.jpeg?raw=true" alt = " ">
-<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s4.jpeg?raw=true" alt = " ">
-<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s5.jpeg?raw=true" alt = " ">
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/registration1.jpeg" alt =" "> 
 
-<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s6.jpeg?raw=true" alt = " ">
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/registration2.jpeg" alt = " ">
 
-<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s7.jpeg?raw=true" alt = " ">
-
-<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s8.jpeg?raw=true" alt = " ">
-
-<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s9.jpeg?raw=true" alt = " ">
-
-<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s10.jpeg?raw=true" alt = " ">
-<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Vishwajeet/Project%201%20using%20SQLite/Output%20Screenshots/s11.jpeg?raw=true" alt = " ">
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/signIn.jpeg" alt = " ">
 
 
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/admissionForm.jpeg" alt = " ">
 
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/cardPayment.jpeg" alt = " ">
 
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/courseList.jpeg" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/courseList2.jpeg" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/courseSyllabus.jpeg" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/emiPayment.jpeg" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/letsStart1.jpeg" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/letsStart2.jpeg" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/letsStart3.jpeg" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/letsStart4.jpeg" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/paymentPage.jpeg" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/paymentPage2.jpeg" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/profile.jpeg" alt = " ">
+
+<img src="https://github.com/ArcherInfotechInhouseTraining/ArI_Android_Projects/blob/main/Batch%201/Pallavi/Project%201%20using%20SQLite/Output%20Screenshots/upiPage.jpeg" alt = " ">
 
 # ArI_Android_Projects
 ## Archer InfoTech - Online Classes App
