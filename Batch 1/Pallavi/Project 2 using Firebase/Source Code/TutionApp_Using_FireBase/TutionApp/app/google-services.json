@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767804801561",
+    "project_id": "tution-app-43671",
+    "storage_bucket": "tution-app-43671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767804801561:android:676f2b3be0e52e27c46088",
+        "android_client_info": {
+          "package_name": "com.ArcherInfotech.tutionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvjlOhUUdKdk8C0idQKlqPp3Hg6R8nSVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UPIPayment">
+
+    <LinearLayout
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/upimain_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Pay With UPI"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:elevation="5dp"
+            android:layout_marginStart="20dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="90dp"
+            android:src="@drawable/upi_bg"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/qrtextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:text="UPI QR"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:padding="5dp"
+            android:background="@drawable/ring">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/clock"
+                android:text="5:00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:text="5:00" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/qr_imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/qrtextview"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/qrcode" />
+
+    <TextView
+        android:id="@+id/qr_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qr_imageView"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="OR"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/upiNum_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPI ID / Number"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/qr_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/upiNum_text"
+        android:layout_margin="20dp"
+        android:elevation="8dp"
+        android:background="@drawable/button_bg">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/upi_shape"
+            android:gravity="center"
+            android:hint="example@ohhdfcbank" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="50dp"
+        android:elevation="30dp">
+
+        <TextView
+            android:id="@+id/fee_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="₹10,000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:elevation="20dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/upicontinuebtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:text="Continue"
+            android:textSize="24sp"
+            android:elevation="20dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

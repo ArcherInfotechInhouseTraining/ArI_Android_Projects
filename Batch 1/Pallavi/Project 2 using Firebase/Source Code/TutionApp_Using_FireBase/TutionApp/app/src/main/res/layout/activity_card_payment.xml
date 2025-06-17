@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/payment_bg"
+    tools:context=".CardPayment">
+
+    <LinearLayout
+        android:id="@+id/card_heading"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrow"
+            android:layout_gravity="center"
+            android:padding="10dp"/>
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:padding="5dp"
+            android:src="@drawable/archerlogo"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARCHER INFOTECH"
+            android:fontFamily="@font/robotobold"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Card"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_below="@id/card_heading"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add a new card"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/cardNumber_editText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Card Number"
+            android:inputType="number"
+            android:maxLength="16"
+            android:background="@drawable/img_2"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp">
+
+            <EditText
+                android:id="@+id/date_editText"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:hint="MM/YY"
+                android:inputType="date"
+                android:background="@drawable/img_3"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/cvv_editText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="CVV"
+                android:maxLength="4"
+                android:inputType="number"
+                android:background="@drawable/img_3"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/name_editText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter name on card"
+            android:inputType="text"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/img_4"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="50dp"
+        android:elevation="30dp">
+
+        <TextView
+            android:id="@+id/fee_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="₹10,000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:elevation="20dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/card_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:text="Continue"
+            android:textSize="24sp"
+            android:elevation="20dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer Circle -->
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="100dp"
+                android:height="100dp"/>
+            <solid android:color="#D81CBEC8"/> <!-- Light Green Color -->
+        </shape>
+    </item>
+
+    <!-- Inner Circle with Inset -->
+    <item
+        android:top="20dp"
+        android:bottom="20dp"
+        android:left="20dp"
+        android:right="20dp">
+        <shape android:shape="oval">
+            <size
+                android:width="115dp"
+                android:height="115dp"/>
+            <solid android:color="@color/primary"/> <!-- Darker Green Color -->
+        </shape>
+    </item>
+
+</layer-list>

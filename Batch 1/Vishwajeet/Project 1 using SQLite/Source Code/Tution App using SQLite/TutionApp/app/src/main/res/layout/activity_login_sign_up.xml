@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Login_signUp">
+
+
+    <androidx.viewpager2.widget.ViewPager2
+
+        android:id="@+id/studentimg"
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/toggle"
+        android:layout_below="@id/studentimg"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/userbtn"
+
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:backgroundTint="@color/black"
+            android:elevation="1dp"
+            android:fontFamily="@font/poppins_medium"
+
+            android:text="User"
+
+            android:textColor="@color/ternary" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/adminbtn"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="Admin"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/secondary" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="345dp"
+        android:layout_height="543dp"
+        android:layout_below="@+id/toggle"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/payment_bg"
+    android:orientation="vertical"
+    tools:context=".payment">
+
+    <LinearLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:padding="5dp"
+            android:src="@drawable/archerlogo"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARCHER INFOTECH"
+            android:fontFamily="@font/robotobold"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/heading">
+
+        <RelativeLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment Options"
+                android:textSize="22sp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="20dp"/>
+            <TextView
+                android:id="@+id/upitext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPI QR"
+                android:textSize="20sp"
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="20dp"/>
+
+            <LinearLayout
+                android:id="@+id/scanner_layout"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/upitext"
+                android:background="@drawable/upi_shape"
+                android:elevation="8dp"
+                android:layout_margin="15dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/qrcode"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginStart="20dp"/>
+
+                <LinearLayout
+                    android:id="@+id/scanoption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SCAN WITH ANY APP"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="50dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:padding="5dp"
+                            android:src="@drawable/gpay"/>
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/phonepay"/>
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/rupay"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:padding="3dp"
+                            android:src="@drawable/amazon"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/payment_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Payment Options"
+                android:layout_below="@id/scanner_layout"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"/>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/netbanking"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/option_bg"
+                    android:orientation="horizontal"
+                    android:layout_margin="20dp"
+                    android:layout_below="@id/payment_text">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/netbanking"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/netbankingText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Netbanking"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:layout_marginStart="10dp"/>
+
+                    <ImageView
+                        android:id="@+id/sbi_logo"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/sbi"
+                        android:background="@drawable/ring"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:padding="4dp"/>
+
+                    <ImageView
+                        android:id="@+id/hdfc_logo"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/hdfc"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ring"
+                        android:layout_marginStart="5dp"
+                        android:padding="4dp"/>
+
+                    <ImageView
+                        android:id="@+id/kotak_logo"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/kotak"
+                        android:background="@drawable/ring"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:padding="4dp"/>
+
+                    <ImageView
+                        android:id="@+id/canara_logo"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/canara"
+                        android:background="@drawable/ring"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:padding="2dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="end">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/right_arrow"/>
+                    </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/upi"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/option_bg"
+                android:layout_below="@id/netbanking"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/upi"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UPI"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/gpay_logo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/gpay"
+                    android:background="@drawable/ring"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:padding="4dp"/>
+                <ImageView
+                    android:id="@+id/phonepay_logo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/phonepay"
+                    android:background="@drawable/ring"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:padding="4dp"/>
+
+                <ImageView
+                    android:id="@+id/amazonpay_logo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/amazon"
+                    android:background="@drawable/ring"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:padding="4dp"/>
+
+                <ImageView
+                    android:id="@+id/rupay_logo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/rupay"
+                    android:background="@drawable/ring"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:padding="4dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="end">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/right_arrow"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/creditcard"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/option_bg"
+                android:layout_below="@id/upi"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/credit_icon"
+                    android:padding="20dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cards"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/mastercard_logo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/mc"
+                    android:background="@drawable/ring"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:padding="4dp"/>
+                <ImageView
+                    android:id="@+id/visa_logo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/visa"
+                    android:background="@drawable/ring"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:padding="4dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="end">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/right_arrow"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/emi"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/option_bg"
+                android:layout_below="@id/creditcard"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/emi"
+                    android:padding="20dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMI"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/axisbank_logo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/axis"
+                    android:background="@drawable/ring"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:padding="4dp"/>
+                <ImageView
+                    android:id="@+id/icicibank_logo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icici"
+                    android:background="@drawable/ring"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:padding="2dp"/>
+
+                <ImageView
+                    android:id="@+id/baroda_logo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/baroda"
+                    android:background="@drawable/ring"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:padding="2dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="end">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/right_arrow"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_below="@id/emi"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="50dp"
+        android:elevation="30dp">
+
+        <TextView
+            android:id="@+id/fee_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="₹10,000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:elevation="20dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/card_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:text="Continue"
+            android:textSize="24sp"
+            android:elevation="20dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
